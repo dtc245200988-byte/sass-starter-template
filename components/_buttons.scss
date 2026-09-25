@@ -1,0 +1,13 @@
+// components/_buttons.scss
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: $primary-color;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  
+  &:hover {
+    background: darken($primary-color, 10%);
+  }
+}
